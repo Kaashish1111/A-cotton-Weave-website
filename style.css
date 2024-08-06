@@ -27,7 +27,7 @@ html,body{
     justify-content: space-between;
 }
 #right{
-    background-color: blue;
+    /* background-color: blue; */
     height: 100%;
     width: 48%;
 }
@@ -87,7 +87,55 @@ html,body{
     color: rgb(97, 93, 93);
     line-height: 18px;
 }
-
-#top-right h3{
+#top-right{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+#top-right h4{
     font-size: 30px;
+}
+#rating{
+    font-size: 24px;
+    display: flex;
+}
+#rating i{
+    color: yellow;
+}
+#rating h5{
+    font-weight: 550;
+}
+#right-bottom{
+    margin-top: 20px;
+    width: 70%;
+    height: 95%;
+    background-image: url(https://images.unsplash.com/photo-1718046881147-0e3b12ec35f3?q=80&w=1370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#circle{
+    position: absolute;
+    top: 35%;
+    left: 78%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: rgb(41, 41, 44);
+    color: rgb(197, 194, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle h5{
+    font-size: 20px;
+}
+#rotated {
+    position: absolute;
+    width: -moz-fit-content;
+    width: fit-content;
+    transform-origin: 0 0;
+    rotate: -90deg;
+    top: 90%;
+    right: 40%;
+    font-size: 35px;
+    color: rgb(32, 32, 32);
 }
