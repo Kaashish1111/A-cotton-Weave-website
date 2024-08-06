@@ -49,6 +49,7 @@ html,body{
     border-radius:50px;
     width: -moz-fit-content;
     width: fit-content;
+    padding-left: 0;
     padding: 4px;
 }
 #colors h5{
@@ -60,6 +61,7 @@ html,body{
     width: 25px;
     background-color: burlywood;
     border-radius: 50%;
+    margin-right: 3px;
 }
 #color2{
     height: 25px;
@@ -84,4 +86,8 @@ html,body{
     font-weight: 600;
     color: rgb(97, 93, 93);
     line-height: 18px;
+}
+
+#top-right h3{
+    font-size: 30px;
 }
